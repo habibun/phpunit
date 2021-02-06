@@ -1,3 +1,7 @@
 ###> PhpStorm ###
 /.idea
 ###< PhpStorm ###
+
+###> Composer ###
+/vendor
+###< Composer ###
