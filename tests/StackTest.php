@@ -13,10 +13,18 @@ final class StackTest extends TestCase
 {
     //mock recommendation: mock only service and entity
 
+    /**
+     * Testing
+     */
     //unit test = test one specific function on a class(fake any needed db connection)
     //integration test = just like unit test Except it uses the real database connection
     //functional test = write a test to programmatically command a browser
     //TDD - 1. create test 2.write just enough code for test to pass, 3. refactor code
+
+    /**
+     * test double
+     */
+    //A test double is an object that can stand in for a real object in a test
 
     private $length;
     static $count;
