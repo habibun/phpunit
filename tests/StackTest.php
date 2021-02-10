@@ -169,4 +169,14 @@ final class StackTest extends TestCase
 
         $this->assertEquals('one', $p->getName());
     }
+
+    /**
+     * Test Doubles
+     */
+    //Dummy - When a particular type of object is required as an argument, but it is not used in any significant way
+    //Stub - When a test double is supposed to return some fixed values
+    //Fake - this is an implementation of the dependency that has all the same methods as the actual implementation, but wouldn’t actually be used in Production
+    //Spy - Records the way in which it’s used – or “spies” on it – and later allows you to access that recorded information to make an assertion in your test
+    //Mock - Mocks are pre-programmed with expectations which form a specification of the calls they are expected to receive.
+    ////Summary - Dummies and Stubs are often used in correctness and contract type unit tests, Spies and Mocks are used most often in collaboration unit tests, and Fakes tend to be used in integrated testing
 }
